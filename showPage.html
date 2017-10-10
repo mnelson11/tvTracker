@@ -3,19 +3,24 @@
 <head>
 	<title>Show Page</title>
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 <link href="https://fonts.googleapis.com/css?family=Monoton|Mrs+Sheppards" rel="stylesheet">
+
 </head>
 <body>
-	<div class = container>
-		<div class = 'row showHeader'>
-			<h1>TV Tracker</h1>
+	<div class = "container">
+		
+		<div class = 'row buttons mainHeader'>
+			<div class = col-md-4>
+				<h1 class=showHeader>TV TRACKER</h1>
+			</div>
+			<div class = col-md-8>
+				<button type="button" class="btn green  active">My Shows</button>
+				<button type="button" class="btn green  active">Search Shows</button>
+				<button type="button" class="btn green active">Trending Shows</button>
+				<button type="button" class="btn red active">Log Out</button>
+			</div>
 		</div>
-		<div class = 'row buttons'>
-			<button type="button" class="btn btn-primary active">My Shows</button>
-			<button type="button" class="btn btn-primary active">Search Shows</button>
-			<button type="button" class="btn btn-primary active">Trending Shows</button>
-			<button type="button" class="btn btn-primary active">Log Out</button>
-		</div>
-
 
 		<div class = row id = show>		
 			<div class = col-md-4 id = showPoster>
@@ -28,6 +33,7 @@
 				<!-- show description can go here -->
 			</div>
 		</div>
+		
 		<div class = row id = episodeList>
 			<div class = col-md-5 div = episodeName >
 				<!-- specific episode name and number here -->
@@ -36,7 +42,7 @@
 			<!-- an indicator to check if you've seen this episode -->
 			</div>
 		</div>
-		<div class = row ><h3>Show Comments</h3>
+		<div class = "row secondaryHeader" ><h3>Comments</h3>
 		</div>
 		<div class = "row commentBox">
 			<!-- insert place to sibmit comments -->
