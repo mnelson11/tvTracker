@@ -91,6 +91,7 @@ body {
 .omb_login .omb_authTitle {
     text-align: center;
 	line-height: 300%;
+	color:white;
 }
 	
 .omb_login .omb_socialButtons a {
@@ -147,3 +148,4 @@ body {
  	}		
 }
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
