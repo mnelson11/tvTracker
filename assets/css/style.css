@@ -1,8 +1,10 @@
 
 body{
+	margin: 10px;
 	background: black;
 	color:white;
 	text-align: center;
+	padding: 0;
 }
 
 .btn{
@@ -27,19 +29,20 @@ body{
 .showHeader{
 	font-family: 'Monoton', cursive;
 	font-size: 50px;
+	text-decoration: underline;
 
 }
 
 .container{
 	align-content: left;
+
 }
 
 .secondaryHeader{
- font-family: impact;
+	text-align: left;
 }
 
 .mainheader{
-	color:red;
 }
 
 
@@ -47,3 +50,29 @@ body{
 	background: lime;
 }
 
+h2,h3{
+	color: white;
+	padding: 5px;
+	text-decoration: underline double white;
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+.stylish-input-group .input-group-addon{
+    background: lime !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:lime;
+	border-width: 2px;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.searchBar{
+	margin-top: 20px;
+}
